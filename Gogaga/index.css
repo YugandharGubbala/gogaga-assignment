@@ -1,0 +1,143 @@
+.container{
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/456/402/495/big-rocks-on-sea-wallpaper-preview.jpg");
+    height: 85vh;
+    width: 100vw;
+    padding: 35px;
+    background-size: cover;
+    
+    
+}
+.heading{
+    font-family: "roboto";
+    font-size: 38px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.para{
+    font-family: "roboto";
+    font-size: 16px;
+    color: #ffffff;
+}
+.card{
+    background-color: #ffffff;
+    width: 98%;
+    height: 50%;
+    border-radius: 10px;
+    padding-top: 14px;
+    padding-left: 35px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.btn1{
+    background-color: black;
+    width: 140px;
+    height: 45px;
+    color: #ffffff;
+    border-radius: 8px;
+}
+.btn2{
+    background-color: #ffffff;
+    width: 140px;
+    height: 45px;
+    color: black;
+    border-radius: 8px;
+
+}
+.box2{
+    height: 80px;
+    width: 35%;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3px;
+}
+.box1{
+    padding: 3px;
+    height: 80px;
+    width: 25%;
+    border: 1px solid black;
+    border-radius: 10px;
+    
+}
+.input1{
+    border: 0px;
+
+}
+
+
+.part2{
+    
+    margin-top: 20px;
+}
+@media screen and (min-width: 700px) {
+    .part2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+  }
+  
+  @media not screen and (min-width: 700px) {
+    .part2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+       
+    }
+  }
+.searchbtn{
+    background-color: black;
+    height: 80px;
+    width: 80px;
+    border-radius: 9px;
+    color: #ffffff;
+}
+
+.headcontainer{
+    border: 1px solid black;
+    background-color: #ffffff;
+    height: 15vh;
+    
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.maincontainer{
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+.headlogo{
+    color: rgb(58, 187, 144);
+    font-size: 45px;
+    font-weight: 900;
+    font-family: "roboto";
+}
+.ulelements{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    width: 50%;
+}
+.menu{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.star{
+    height: 38px;
+    width: 38px;
+    background-color: black;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 4px;
+}
